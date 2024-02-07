@@ -30,9 +30,6 @@ const menuList = [
 function Navbar() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
-  const handleSidebarOpen = () => {
-    setSidebarOpen(true);
-  };
   const handleClose = () => {
     setSidebarOpen(false);
   };
