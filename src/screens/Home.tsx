@@ -15,13 +15,13 @@ function Home() {
       <div className="z-20 relative  lg:flex px-5 lg:px-10 xl:px-16 pt-8 pb-5 md:pt-24 justify-between items-center">
         <div className=" z-30 lg:w-[49%] xl:w-[45%] flex flex-col items-center lg:items-start gap-10 xl:px-10">
           <div className="flex flex-col items-center lg:items-start">
-            <Text className="text-xxl font-extrabold uppercase">
+            <Text className=" text-5xl md:text-xxl font-extrabold uppercase text-center lg:text-start">
               QUEEN TOKEN
             </Text>
-            <Text className="font-extrabold text-2xl">
+            <Text className="font-extrabold text-2xl text-center lg:text-start">
               Unleash Your Crypto Royalty
             </Text>
-            <p className="text-xl pt-6 text-center lg:text-start text-primary">
+            <p className="text-base md:text-xl pt-6 text-center lg:text-start text-primary">
               Introducing QUEEN Token, the latest innovation in meme
               cryptocurrency. Designed for the bold and visionary, QUEEN Token
               empowers its community with a unique blend of utility, rarity, and
