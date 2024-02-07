@@ -4,6 +4,7 @@ import Home from "./screens/Home";
 import AboutUs from "./screens/AboutUs";
 import RoadMap from "./screens/RoadMap";
 import Tokenomics from "./screens/Tokenomics";
+import HowTo from "./screens/HowTo";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         <RoadMap />
         {/* Tokenomics */}
         <Tokenomics />
+        {/* how to */}
+        <HowTo />
       </div>
     </Router>
   );

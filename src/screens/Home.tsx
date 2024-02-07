@@ -28,7 +28,9 @@ function Home() {
               where every holder is royalty.
             </p>
           </div>
-          <ContactAddress />
+          <div className="w-full md:w-auto sm:px-5 md:px-0">
+            <ContactAddress />
+          </div>
         </div>
         <div className=" mt-5 lg:mt-0 z-20 flex justify-center lg:justify-start lg:w-1/2">
           <img
