@@ -12,7 +12,7 @@ function ContactAddress() {
         CONTRACT ADRESS:
       </Text>
       <div className="w-full md:w-fit mt-5 break-words rounded-lg flex p-3 gap-1 bg-gradient-to-b from-primary to-secondary">
-        <p className="text-sm break-words w-[250px] md:w-auto">{CopyKey}</p>
+        <p className="break-words w-[250px] sm:w-auto font-bold">{CopyKey}</p>
         <button>
           <FaFileAlt title="copy" className="" />
         </button>
