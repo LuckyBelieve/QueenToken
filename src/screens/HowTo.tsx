@@ -4,7 +4,7 @@ import ContactAddress from "../components/ContactAddress";
 
 function HowTo() {
   return (
-    <section className="px-5 pb-5 lg:px-14 bg-[url('/Bgs/bgImage2.png')] bg-cover">
+    <section id="buy" className="px-5 pb-5 lg:px-14 bg-[url('/Bgs/bgImage2.png')] bg-cover">
       <div className="flex flex-col lg:flex-row justify-between">
         <div className=" pt-10 flex flex-col gap-10 lg:w-[45%]">
           <Text className="font-extrabold text-5xl md:text-xxl text-center ">

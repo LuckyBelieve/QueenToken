@@ -3,7 +3,7 @@ import Text from "../components/Text";
 
 function Tokenomics() {
   return (
-    <section className="pt-12 pb-5 px-5 lg:px-14 bg-[url('/Bgs/bgImage2.png')] bg-cover">
+    <section id="tokenomics" className="pt-12 pb-5 px-5 lg:px-14 bg-[url('/Bgs/bgImage2.png')] bg-cover">
       <div className="flex flex-col justify-center items-center">
         <Text className="font-extrabold text-5xl md:text-xxl">Tokenomics</Text>
         <Text className="font-extrabold text-base">
