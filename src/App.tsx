@@ -2,7 +2,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./screens/Home";
 import AboutUs from "./screens/AboutUs";
-import RoadMap from "./components/RoadMap";
+import RoadMap from "./screens/RoadMap";
+import Tokenomics from "./screens/Tokenomics";
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <AboutUs />
         {/* Roadmap */}
         <RoadMap />
+        {/* Tokenomics */}
+        <Tokenomics />
       </div>
     </Router>
   );
