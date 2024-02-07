@@ -7,8 +7,8 @@ function AboutUs() {
       id="about"
       className="relative bg-black bg-[url('/Bgs/bgImage1.png')] bg-cover py-24 px-5 lg:px-10  xl:px-16"
     >
-      <div className="lg:flex justify-between">
-        <div className="lg:w-[55%] flex flex-col justify-center items-center">
+      <div className="flex flex-col-reverse lg:flex-row justify-between">
+        <div className="lg:w-[55%] pt-10 lg:pt-0 flex flex-col justify-center items-center">
           <img
             src="/about/about.png"
             alt="about"
@@ -16,7 +16,9 @@ function AboutUs() {
           />
         </div>
         <div className="lg:w-[45%] pl-4 xl:pl-0 flex flex-col items-center gap-5">
-          <Text className="font-extrabold text-5xl mt-5 md:text-xxl">About Us</Text>
+          <Text className="font-extrabold text-5xl mt-5 md:text-xxl">
+            About Us
+          </Text>
           <Text className="font-normal text-base">
             Enter the Kingdom of QUEEN Token
           </Text>

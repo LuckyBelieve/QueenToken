@@ -65,7 +65,7 @@ function Navbar() {
         onClick={handleClose}
         className={` ${
           sidebarOpen ? "block" : "hidden"
-        } absolute inset-0 bg-black bg-opacity-50 backdrop-blur-sm md:hidden z-30`}
+        } fixed inset-0 h-[100vh] bg-black bg-opacity-50 backdrop-blur-sm md:hidden z-30`}
       ></div>
       <div
         className={`${

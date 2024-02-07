@@ -10,7 +10,6 @@ function Home() {
       className="relative bg-black bg-[url('/Bgs/bgImage1.png')] bg-cover"
     >
       <Navbar />
-
       {/* home content */}
       <div className="z-20 relative  lg:flex px-5 lg:px-10 xl:px-16 pt-8 pb-5 md:pt-24 justify-between items-center">
         <div className=" z-30 lg:w-[49%] xl:w-[45%] flex flex-col items-center lg:items-start gap-10 xl:px-10">
