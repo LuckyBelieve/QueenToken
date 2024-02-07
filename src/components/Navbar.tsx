@@ -34,7 +34,7 @@ function Navbar() {
     setSidebarOpen(false);
   };
   return (
-    <div className="flex item-center justify-between pt-8 px-5 md:px-8 lg:px-24">
+    <div className="z-50 flex item-center justify-between pt-8 px-5 md:px-8 lg:px-24">
       {/* logo */}
       <div>
         <img src="/logo/logo.png" alt="logo" className="w-16 h-16" />

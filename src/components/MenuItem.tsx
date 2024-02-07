@@ -11,7 +11,7 @@ interface Props {
 
 function MenuItem({ menu, handleClose }: Props) {
   return (
-    <li className="uppercase text-lg font-extrabold bg-gradient-to-b from-primary to-secondary text-transparent bg-clip-text">
+    <li className="z-30 uppercase text-lg font-extrabold bg-gradient-to-b from-primary to-secondary text-transparent bg-clip-text">
       <Link onClick={handleClose} className="hover:text-primary" to={menu.link}>
         {menu.title}
       </Link>

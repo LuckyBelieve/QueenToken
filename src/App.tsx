@@ -5,7 +5,7 @@ import Home from "./screens/Home";
 function App() {
   return (
     <Router>
-      <div className="bg-black">
+      <div className="bg-black font-Poppins">
         <Home/>
       </div>
     </Router>
