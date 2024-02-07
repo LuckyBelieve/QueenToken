@@ -4,7 +4,7 @@ import ContactAddress from "../components/ContactAddress";
 
 function HowTo() {
   return (
-    <section className="px-5 lg:px-14 bg-[url('/Bgs/bgImage2.png')] bg-cover">
+    <section className="px-5 pb-5 lg:px-14 bg-[url('/Bgs/bgImage2.png')] bg-cover">
       <div className="flex flex-col lg:flex-row justify-between">
         <div className=" pt-10 flex flex-col gap-10 lg:w-[45%]">
           <Text className="font-extrabold text-5xl md:text-xxl text-center ">
@@ -15,7 +15,7 @@ function HowTo() {
               Step 1: Set Up a Crypto Wallet
             </Text>
             <ul>
-              <li className="flex items-center">
+              <li className="flex ">
                 <span className="mr-2 text-secondary text-2xl">•</span>
                 <Text className="font-normal text-base">
                   Create a Wallet: Start by setting up a digital wallet that
@@ -23,7 +23,7 @@ function HowTo() {
                   include Trust Wallet and MetaMask.
                 </Text>
               </li>
-              <li className="flex items-center">
+              <li className="flex ">
                 <span className="mr-2 text-secondary text-2xl">•</span>
                 <Text className="font-normal text-base">
                   Secure Your Wallet: Make sure to securely store your wallet's
@@ -37,7 +37,7 @@ function HowTo() {
               Step 2: Add Binance Smart Chain to Your Wallet
             </Text>
             <ul>
-              <li className="flex items-center">
+              <li className="flex ">
                 <span className="mr-2 text-secondary text-2xl">•</span>
                 <Text className="font-normal text-base">
                   Configure Network Settings: Add Binance Smart Chain to your
@@ -53,7 +53,7 @@ function HowTo() {
               Step 3: Purchase BNB
             </Text>
             <ul>
-              <li className="flex items-center">
+              <li className="flex ">
                 <span className="mr-2 text-secondary text-2xl">•</span>
                 <Text className="font-normal text-base">
                   Buy BNB: Acquire Binance Coin (BNB) through a cryptocurrency
@@ -68,20 +68,20 @@ function HowTo() {
               Step 4: Swap BNB for QUEEN Token
             </Text>
             <ul>
-              <li className="flex items-center">
+              <li className="flex ">
                 <span className="mr-2 text-secondary text-2xl">•</span>
                 <Text className="font-normal text-base">
                   Use a DEX: Go to a decentralized exchange (DEX) like
                   PancakeSwap.
                 </Text>
               </li>
-              <li className="flex items-center">
+              <li className="flex ">
                 <span className="mr-2 text-secondary text-2xl">•</span>
                 <Text className="font-normal text-base">
                   Connect Your Wallet: Link your digital wallet to the DEX.
                 </Text>
               </li>
-              <li className="flex items-center">
+              <li className="flex ">
                 <span className="mr-2 text-secondary text-2xl">•</span>
                 <Text className="font-normal text-base">
                   Swap BNB for QUEEN: Select QUEEN Token as the token you wish
@@ -93,7 +93,7 @@ function HowTo() {
           </div>
         </div>
         <div className="lg:w-1/2 flex flex-col justify-center xl:justify-start mt-10 lg:mt-0 items-center lg:items-end">
-          <div className="w-fit">
+          <div className="w-fit mt-5">
             <ContactAddress />
             <img
               src="/howTo/howToBuy.png"

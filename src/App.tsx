@@ -5,6 +5,7 @@ import AboutUs from "./screens/AboutUs";
 import RoadMap from "./screens/RoadMap";
 import Tokenomics from "./screens/Tokenomics";
 import HowTo from "./screens/HowTo";
+import Footer from "./screens/Footer";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <Tokenomics />
         {/* how to */}
         <HowTo />
+        {/* footer */}
+        <Footer />
       </div>
     </Router>
   );
