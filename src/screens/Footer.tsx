@@ -10,7 +10,7 @@ function Footer() {
           <div className="mb-5">
             <img src="/logo/logo.png" alt="logo" className="md:w-28 md:h-28" />
           </div>
-          <div className="flex gap-3">
+          <div className="flex gap-3 z-20">
             <SocialButton imageUrl="/social/Telegram.png" alt="telegram" />
             <SocialButton imageUrl="/social/Twitter.png" alt="twitter" />
           </div>
