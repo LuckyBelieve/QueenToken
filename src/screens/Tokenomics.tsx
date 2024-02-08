@@ -34,7 +34,7 @@ function Tokenomics() {
             <Text className="font-black text-2xl text-center mb-5">
               Token Distribution
             </Text>
-            <img src="/token/token.png" alt="tokenImage" />
+            <img src="/token/token.png" alt="tokenImage" loading="lazy" />
           </div>
         </div>
       </div>

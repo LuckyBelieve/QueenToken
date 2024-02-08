@@ -13,6 +13,7 @@ function AboutUs() {
             src="/about/about.png"
             alt="about"
             className="md:w-[70%] lg:w-auto"
+            loading="lazy"
           />
         </div>
         <div className="lg:w-[45%] pl-4 xl:pl-0 flex flex-col items-center gap-5">

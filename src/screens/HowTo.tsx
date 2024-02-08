@@ -99,6 +99,7 @@ function HowTo() {
               src="/howTo/howToBuy.png"
               alt="howtoBuyImage"
               className="mt-5"
+              loading="lazy"
             />
           </div>
         </div>

@@ -37,12 +37,14 @@ function Home() {
             src="/home/home1.png"
             alt="home"
             className="md:w-[70%] z-30 lg:w-auto"
+            loading="lazy"
           />
         </div>
         <img
           src="/home/homebg.png"
           alt="home"
           className="absolute hidden lg:block right-0 z-10"
+          loading="lazy"
         />
       </div>
     </section>
